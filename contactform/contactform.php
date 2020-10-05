@@ -36,21 +36,21 @@ $recaptcha = json_decode($recaptcha);
  */
 
 // an email address that will be in the From field of the email.
-$from = 'NSL Contact Form <site@nslug.com>';
+$from = 'RKA Contact Form <site@rka.ug>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Akbr<kakbr800@gmail.com>';
+$sendTo = 'RKA & Company<info@rka.ug>';
 
 // subject of the email
-$subject = 'New message from NSL Website: '.$_POST['name'];
+$subject = 'New message from RKA Website: '.$_POST['name'];
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'name',
                 'company' => 'company',
-                'EnquiryType' => 'EnquiryType',
                 'email' => 'email',
                 'phone' => 'phone',
+                'EnquiryType' => 'EnquiryType',
                 'message' => 'message'); 
 
 // message that will be displayed when everything is OK :)
